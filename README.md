@@ -1,6 +1,6 @@
 # Simple Wikipedia-like Search Website
 
-![Website Preview]
+![[Website Preview](https://mzili.com/assets/projects/wiki/wiki.html)]
 
 This is a simple search website that allows users to search for articles and retrieve relevant information. It is built using HTML, CSS, and JavaScript. The website provides a user-friendly interface for searching and displaying search results.
 
