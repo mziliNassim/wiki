@@ -3,68 +3,88 @@
 <!-- ============================================================ -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Meta -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Head Icon -->
-    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
-
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/x-icon"
+    />
     <!-- Icons 'fontawesome.com/icons' -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- CSS -->
-    <link rel="stylesheet" href="src/jsCss/style.css">
-    
+    <link rel="stylesheet" href="./assets/style.css" />
     <!-- Title -->
     <title>WIKI_Search_by_"mzili.com"</title>
-</head>
-<body>
-    <!-- Main -->
-    <section class="wiki">
-        <!-- Main -->
-        <div class="container">
-            <div class="heading">
-                <img src="src/img/wiki-logo.png" alt="wiki-logo" class="logo" />
-                <div>
-                    <h3>WIKI Search</h3>
-                </div>
-            </div>
+  </head>
+  <body>
+    <div class="header container">
+      <div class="header-left">
+        <img src="./assets/img/wiki-logo.png" alt="wiki-logo" class="logo" />
+        <h3>WIKI Search</h3>
+      </div>
+      <div class="header-right">
+        <a
+          href="https://www.instagram.com/mzili_com/"
+          title="instagram"
+          target="_blank"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/mzilinassim/"
+          title="linkedin"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com/mziliNassim/"
+          title="github"
+          target="_blank"
+        >
+          <i class="fa-brands fa-square-github"></i>
+        </a>
+        <a
+          href="https://linktr.ee/mzilinassim/"
+          title="All links"
+          target="_blank"
+        >
+          <i class="fa-solid fa-user"></i>
+        </a>
+      </div>
+    </div>
 
-            <form class="form">
-                <input type="text" class="form-input" />
-                <button type="submit" class="submit-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-        </div>
+    <form class="container">
+      <input
+        type="text"
+        class="form-input"
+        placeholder="What are you looking for today...?"
+        autofocus
+      />
+      <button type="submit" class="form-btn">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </form>
 
-        <!-- Results -->
-        <div class="results"></div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-            <!-- Section: Social media -->
-            <section>
-                <!-- Google -->
-                <a class="btn" href="https://mzili.com/" target="_blank" role="button" ><i class="fab fa-google"></i ></a>
-                    
-                <!-- Github -->
-                <a class="btn" href="https://github.com/mziliNassim" target="_blank" role="button" ><i class="fab fa-github"></i ></a>
-                    
-                <!-- Linkedin -->
-                <a class="btn" href="https://www.linkedin.com/in/mzilinassim/" target="_blank" role="button" ><i class="fab fa-linkedin"></i ></a>
-                    
-                <!-- Instagram -->
-                <a class="btn" href="https://www.instagram.com/mzili_com/" target="_blank" role="button" ><i class="fab fa-instagram"></i ></a>
-                        
-                <!-- Twitter -->
-                <a class="btn" href="https://www.x.com/mzili_com/" target="_blank" role="button" ><i class="fab fa-twitter"></i ></a>
-            </section>
-    </footer>
-    <!-- JS --> 
-    <script src="src/jsCss/script.js"></script>
-</body>
-</html><!--This template made by Nassim MZILI "https://mzili.com"-->
-
+    <!-- Results -->
+    <div class="results container">
+      <!-- <div class="error">please enter valid search term</div> -->
+      <!-- <div class="loading"></div> -->
+      <!-- <div class="articles"></div> -->
+    </div>
+    <!-- JS -->
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
+<!--This template made by Nassim MZILI "https://mzili.com"-->
